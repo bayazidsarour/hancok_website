@@ -1,0 +1,849 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* .row>* {
+    padding: 0;
+} */
+
+:root {
+  --primery_font: oswald;
+  --secondery_font: Barlow Condensed;
+  --primery_bg_color: #121212;
+  --secondery_bg_color: #212121;
+  --primery_text_color: #ff4655;
+  --secondery_text_color: #666666;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+nav {
+  font-family: var(--primery_font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: auto;
+  letter-spacing: 0%;
+  padding-top: 25px;
+}
+.nav_bar {
+  position: absolute;
+  width: 100%;
+}
+.menu {
+  margin-left: 60px;
+}
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.menu ul li a:hover {
+  color: #ff4655;
+}
+
+.right_nav {
+  align-items: center;
+  justify-content: space-between;
+  gap: 26px;
+  color: white;
+}
+.right_nav i {
+  width: 25px;
+  height: 25px;
+}
+.right_nav .sign_in i {
+  margin-right: 7.17px;
+}
+.navbar-nav {
+  gap: 30.1px;
+}
+
+/* ====================================================Banner Start=============================== */
+.banner .banner_icon {
+  gap: 20px;
+  margin-top: 301px;
+  padding-bottom: 103px;
+}
+.banner .banner_icon i {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  width: 35px;
+  height: 35px;
+  transition: 0.4s;
+}
+.banner .banner_icon i:hover {
+  background-color: #ff4655;
+  color: white;
+}
+#Banner {
+  background-image: url(./images/banner_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner .banner_text {
+  padding-top: 337px;
+  width: 611px;
+}
+
+.banner .banner_text h4 {
+  color: white;
+  font-family: var(--primery_font);
+  font-size: 27px;
+  font-weight: 400;
+  line-height: auto;
+  letter-spacing: 10px;
+}
+
+.banner .banner_text h1 {
+  font-family: var(--primery_font);
+  font-size: 60px;
+  font-weight: 600;
+  line-height: auto;
+  letter-spacing: 0px;
+  color: white;
+  position: relative;
+}
+.banner .banner_text h1::after {
+  content: " ";
+  width: 100px;
+  height: 4px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 10px;
+  right: -10px;
+}
+
+.banner .banner_text p {
+  font-family: var(--primery_font);
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  width: 521px;
+  margin-top: 5px;
+}
+
+.banner .banner_text .button button {
+  font-family: var(--primery_font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: auto;
+  color: #121212;
+  padding: 13px 24px;
+  display: flex;
+  align-items: center;
+  border: none;
+  margin-top: 48px;
+  transition: 0.4s;
+}
+.banner .banner_text .button button:hover {
+  background-color: #ff4655;
+  color: white;
+}
+
+.banner .banner_text .button button i {
+  margin-left: 7px;
+  margin-top: 5px;
+}
+/* ===========================================Banner End=========================================== */
+
+/* ========================================About Start=========================================== */
+#About {
+  background-color: #121212;
+}
+
+.about {
+  padding-top: 24px;
+  padding-bottom: 80px;
+}
+.about .row {
+}
+.about .h2 {
+  margin-bottom: 57px;
+  font-family: var(--primery_font);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: auto;
+  letter-spacing: 7px;
+  color: white;
+  position: relative;
+}
+
+.about .h2::after {
+  content: " ";
+  width: 100px;
+  height: 3px;
+  background-color: #ff4655;
+  position: absolute;
+  bottom: 5px;
+  left: 250px;
+}
+.about .about_wrapper {
+  /* padding-left : -5px !important; */
+  align-items: center;
+}
+
+.about .about_wrapper .about_part {
+  color: white;
+}
+.about .about_wrapper .about_part li {
+  list-style: none;
+  font-family: oswald;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: auto;
+  letter-spacing: 0px;
+  margin-bottom: 13px;
+}
+.about .about_wrapper .about_part p {
+  width: 467px;
+  font-family: oswald;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: auto;
+  letter-spacing: px;
+  line-height: auto;
+}
+.about .about_wrapper .about_part button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--primery_font);
+  line-height: auto;
+  letter-spacing: 0px;
+  padding: 13px 24px;
+  border: none;
+  background-color: #212121;
+  color: white;
+}
+.about .about_wrapper .about_part button:hover {
+  background-color: #ff4655;
+}
+.about .about_wrapper .about_part button i {
+  width: 25px;
+  height: 25px;
+  font-weight: 600;
+  color: white;
+}
+
+ol,
+ul {
+  padding-left: 0;
+}
+.about .about_wrapper .about_part li i {
+  color: #ff4655;
+  margin-right: 10px;
+}
+.about .about_wrapper .about_part h2 {
+  font-family: var(--primery_font);
+  font-weight: 600;
+  font-size: 27px;
+  letter-spacing: 3px;
+}
+.about_counter {
+  color: white;
+  margin-top: 51px;
+  justify-content: space-between;
+}
+.about_counter .counter_box {
+  background-color: #212121;
+  padding-top: 26px;
+  padding-bottom: 33px;
+  width: 315px;
+  text-align: center;
+  border-radius: 0 50px 0 50px;
+}
+
+.about_counter .counter_box .counter h2 {
+  font-family: var(--secondery_font);
+  font-size: 60px;
+  font-weight: 600;
+  position: relative;
+}
+
+.about_counter .counter_box .counter h2::after {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff4655;
+  position: absolute;
+  bottom: 11px;
+  right: auto;
+}
+
+.about_counter .counter_box .counter p {
+  font-family: var(--primery_font);
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+.about_counter .counter_box .counter p:hover {
+  color: #ff4655;
+  transition: 0.4s;
+}
+
+/* ========================================About End  =========================================== */
+
+/* =========================================Populer Games Start==================================== */
+#populer_gmaes {
+  background-color: #191919;
+  padding-top: 115px;
+  color: #fff;
+  padding-bottom: 90px;
+}
+
+.populer_games h2 {
+  text-align: end;
+  font-family: var(--secondery_font);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: auto;
+  letter-spacing: 7px;
+
+  margin-bottom: 80px;
+  position: relative;
+}
+.populer_games h2::after {
+  content: " ";
+  width: 100px;
+  height: 3px;
+  background-color: #ff4655;
+  position: absolute;
+  right: 150px;
+  bottom: 5px;
+}
+
+.populer_games .carosel .left_side {
+  position: relative;
+}
+
+.populer_games .carosel .left_side .image2 img {
+  position: absolute;
+  top: -214px;
+  right: 100px;
+}
+
+.populer_games .right_side {
+  display: flex;
+}
+.populer_games .right_side .icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 20px;
+}
+
+.carousel-control-next {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-control-next:hover {
+  background-color: #ff4655;
+  transition: 0.4s;
+}
+
+.carousel-control-prev {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-control-prev:hover {
+  background-color: #ff4655;
+  transition: 0.4s;
+}
+
+/* ========================bootstarp============================= */
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: visible;
+}
+
+.populer_games .icons {
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+  display: flex;
+}
+.populer_games .icons .carousel-control-next {
+  position: absolute;
+  top: 50px;
+  right: -42px;
+}
+
+/* ========================bootstarp============================= */
+
+/* =========================================Populer Games End  ==================================== */
+
+/* ===========================================live Stream Start====================================== */
+.live_stream {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#live_stream {
+  background-color: #121212;
+  color: white;
+}
+
+.live_stream .h2 {
+  font-family: var(--primery_font);
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 7px;
+  position: relative;
+}
+.live_stream .h2::after {
+  content: " ";
+  width: 100px;
+  height: 3px;
+  background-color: #ff4655;
+  position: absolute;
+  bottom: 5px;
+}
+
+.live_stream .videos {
+  margin-top: 68.86px;
+}
+.live_stream .videos .video_box:hover {
+  scale: 110%;
+  transition: 0.4s;
+}
+.live_stream .previous_matches {
+  width: 1096px;
+  margin: 0 auto;
+  padding-top: 60.66px;
+}
+.live_stream .previous_matches h3 {
+  font-size: 25px;
+  text-align: center;
+  font-family: var(--secondery_font);
+  font-weight: 400;
+  letter-spacing: 9px;
+  margin-bottom: 49.19px;
+}
+.live_stream .previous_matches .match1,
+.match2 {
+  justify-content: space-between;
+}
+.live_stream .previous_matches .match1 .team_1,
+.team_2,
+.team_3,
+.team_4 {
+  align-items: center;
+  justify-content: space-between;
+  background-color: #212121;
+}
+
+.live_stream .previous_matches .time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: var(--primery_font);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: auto;
+  letter-spacing: 15px;
+}
+
+.live_stream .previous_matches h4 {
+  font-size: 32px;
+  font-family: var(--secondery_font);
+  font-weight: 400;
+  letter-spacing: ;
+}
+
+.live_stream .previous_matches .team2_logo,
+.team4_logo {
+  display: flex;
+  justify-content: end;
+}
+
+.live_stream .previous_matches .match1 {
+  margin-bottom: 58.56px;
+}
+
+.team_1,
+.team_3 {
+  clip-path: polygon(0 0, 100% 0%, 89% 100%, 0% 100%);
+  padding-right: 62px;
+}
+.team_2,
+.team_4 {
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 9% 100%);
+  padding-left: 59px;
+}
+.team_3 h4 {
+  text-align: end;
+}
+
+/* ===========================================live Stream End  ====================================== */
+/* ================================black Friday Start=============================================== */
+.black_friday h2 {
+  font-family: var(--secondery_font);
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 7px;
+  margin-bottom: 47px;
+  position: relative;
+  color: white;
+}
+.black_friday h2::after {
+  content: " ";
+  width: 100px;
+  height: 3px;
+  background-color: #ff4655;
+  position: absolute;
+  bottom: 7px;
+}
+
+#black_friday {
+  background-color: #191919;
+}
+
+.black_friday {
+  padding-top: 90px;
+}
+
+.black_friday .all_items {
+  padding-bottom: 60px;
+}
+.black_friday .all_items .sell_item1 {
+  position: relative;
+}
+.black_friday .all_items .sell_item1 i {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: #121212;
+  padding: 5px;
+  opacity: 0;
+}
+.black_friday .all_items .sell_item1:hover i {
+  opacity: 100%;
+  transition: 0.4s;
+}
+.black_friday .all_items .sell_item1 .price_content .game_price {
+  margin-left: 0px;
+}
+.black_friday .all_items .sell_item1 .price_content .game_price .left_price {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: oswald;
+  text-align: center;
+  background-color: #ff4655;
+}
+
+.black_friday .all_items .sell_item1 .price_content .game_price .middle_price {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: oswald;
+  text-align: center;
+  color: #666666;
+}
+
+.black_friday .all_items .sell_item1 .price_content .game_price .total_price {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: oswald;
+  text-align: center;
+  color: white;
+}
+.black_friday .all_items .sell_item1 .price_content h4 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-family: var(--primery_font);
+  color: #666666;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.black_friday .all_items .sell_item1 .price_content h3 {
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-family: var(--secondery_font);
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+/* ================================black Friday  End================================================ */
+/* ================================Catagory Start=================================================== */
+#catalog {
+  background-color: #191919;
+}
+.catalog .h6 {
+  font-family: var(--secondery_font);
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.catalog .catalog_part {
+  padding-top: 42px;
+  padding-bottom: 42px;
+  gap: 176px;
+  color: white;
+  align-items: center;
+}
+.catalog .catalog_part h6 {
+  font-size: 16px;
+  font-family: var(--primery_font);
+  font-weight: 400;
+  color: #ff4655;
+  letter-spacing: 2px;
+}
+.catalog .catalog_part h2 {
+  font-size: 38px;
+  font-family: var(--secondery_font);
+  font-weight: 600;
+
+  letter-spacing: 0px;
+  line-height: auto;
+}
+
+.catalog .catalog_part p {
+  font-size: 16px;
+  font-family: var(--primery_font);
+  font-weight: 600;
+
+  letter-spacing: 0px;
+  line-height: auto;
+  color: #666666;
+}
+.catalog .catalog_part button {
+  font-family: var(--primery_font);
+  font-weight: 400;
+  font-size: 16px;
+  padding: 13px 31px;
+  border: none;
+  background-color: #121212;
+  color: white;
+  margin-top: 25px;
+}
+.catalog .catalog_part button:hover {
+  background-color: #ff4655;
+  color: white;
+  transition: 0.4s;
+}
+/* ================================Catagory End  =================================================== */
+/* ================================Gaming Accessories Start============================================ */
+#gaming_accessories {
+  background-color: #121212;
+}
+.gaming_accessories {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.gaming_accessories h3 {
+  font-size: 38px;
+  font-weight: 600;
+  font-family: var(--primery_font);
+  letter-spacing: 7%;
+  color: white;
+  position: relative;
+}
+.gaming_accessories h3::after {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background-color: #ff4655;
+  position: absolute;
+  right: auto;
+  bottom: 5px;
+  margin-left: 10px;
+}
+
+.gaming_accessories .accessories .gaming_products .products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #212121;
+  padding: 22px 24px;
+}
+.gaming_accessories .accessories .gaming_products .products h4 {
+  margin-top: 33px;
+  margin-bottom: 7px;
+  color: white;
+  font-size: 25px;
+  font-family: var(--primery_font);
+  font-weight: 600;
+}
+
+.gaming_accessories .accessories .gaming_products .products h6 {
+  font-family: var(--primery_font);
+  color: #ff4655;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.gaming_accessories .accessories .gaming_products .products h2 {
+  font-family: var(--primery_font);
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.gaming_accessories .accessories .gaming_products {
+  gap: 20px;
+}
+
+.gaming_accessories .accessories {
+  margin-top: 102.82px;
+}
+
+/* ================================Gaming Accessories End  ============================================ */
+/* ================================Professional Team Start============================================= */
+
+#professional_team {
+  background-color: #191919;
+}
+.professional_team .h2 {
+  text-align: end;
+  color: white;
+  font-size: 38px;
+  font-weight: 600;
+  font-family: var(--secondery_font);
+  margin-bottom: 49.81px;
+}
+.professional_team {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+}
+.professional_team .team {
+  justify-content: space-between;
+}
+.professional_team .team .team1 {
+  width: 650px;
+  background-image: url(./images/team-1.png);
+  padding-top: 250px;
+  padding-left: 30px;
+  padding-right: 58px;
+  background-color: rgba(37, 36, 36, 0.226);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+.professional_team .team .team_box2 {
+  background: url(./images/team-2.png);
+}
+.professional_team .team .team_box3 {
+  background: url(./images/team-3.png);
+}
+.professional_team .team .team_box4 {
+  background: url(./images/team-4.png);
+}
+.professional_team .team .team1 .team_details h2 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: var(--secondery_font);
+  color: white;
+  padding: 25px 0 28px 30px;
+  background-color: rgba(37, 36, 36, 0.226);
+}
+.professional_team .team .team1 .team_details {
+  opacity: 100%;
+}
+.professional_team .team .team1:hover .team_details {
+  opacity: 0;
+}
+.professional_team .team .team1:hover .team_content {
+  opacity: 100%;
+  transition: 0.4s;
+}
+.professional_team .team .team1 .team_content {
+  position: relative;
+}
+.professional_team .team .team1 .team_content {
+  position: absolute;
+  bottom: 20px;
+  opacity: 0;
+  background-color: #00000017;
+  width: 100%;
+}
+
+.professional_team .team .team1 .team_content button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--primery_font);
+  background-color: #ff4655;
+  padding-top: 4px;
+  padding-bottom: 5px;
+  padding: 0 20px;
+  color: white;
+  border: none;
+}
+.professional_team .team .team1 .team_content p {
+  font-family: var(--primery_font);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.professional_team .team .team1 .team_content h2 {
+  font-family: var(--primery_font);
+  font-weight: 600;
+  font-size: 30px;
+  width: 300px;
+}
+
+.professional_team .team .team1 .team_content .button_icon i {
+  background-color: #ff4655;
+  font-weight: 30px;
+  border-radius: 50%;
+  padding: 8px;
+  text-align: center;
+}
+
+/* ================================Professional Team End  ============================================= */
+
+/* ================================FaQ Start======================================= */
+#faq
+{
+    background-color:#121212;
+    color: white;
+}
+.faq
+{
+    padding-top: 55px;
+    padding-bottom: 200px;
+}
+.faq h2
+{
+    font-size: 38px;
+    font-family: var(--secondery_font);
+    font-weight: 600;
+    margin-bottom: 92px;
+}
+/* ================================FaQ End   ======================================= */
+/* ================================Footer Start ====================================== */
+
+/* ================================Footer End   ====================================== */
