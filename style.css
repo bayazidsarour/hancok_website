@@ -848,13 +848,23 @@ ul {
 
 .faq .all_faq .faq1 h2
 {
+  font-family: var(--secondery_font);
   font-size: 38px;
   font-weight: 600;
   background-color: #ff4655;
   color: white;
   width: 70px;
   height: 70px;
-  text-align: center;}
+  text-align: center;
+}
+.faq .all_faq .faq1 h3
+{
+font-family: var(--secondery_font);
+font-size: 22px;
+font-weight: 600;
+color: #ff4655;
+}
+
 /* ================================FaQ End   ======================================= */
 /* ================================Footer Start ====================================== */
 
