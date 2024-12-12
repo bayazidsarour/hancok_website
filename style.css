@@ -843,6 +843,18 @@ ul {
     font-weight: 600;
     margin-bottom: 92px;
 }
+
+
+
+.faq .all_faq .faq1 h2
+{
+  font-size: 38px;
+  font-weight: 600;
+  background-color: #ff4655;
+  color: white;
+  width: 70px;
+  height: 70px;
+  text-align: center;}
 /* ================================FaQ End   ======================================= */
 /* ================================Footer Start ====================================== */
 
