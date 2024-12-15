@@ -893,7 +893,7 @@ border-top: 1px solid #666666;
 
 /* ================================FaQ End   ======================================= */
 /* ================================Footer Start ====================================== */
-.footer .footer_top .subscribe .heading
+.footer
 {
 
 }
@@ -920,4 +920,47 @@ border-top: 1px solid #666666;
 {
   align-items: center;
 }
+.footer .footer_top .subscribe .subscribe_form input
+{
+padding: 10px 0;
+padding-left: 30px;
+border-radius: 30px;
+border: none;
+
+}
+.footer .footer_top .subscribe .subscribe_form input:focus
+{
+  outline: none;
+}
+.footer .footer_top .subscribe .subscribe_form input::placeholder
+{
+  font-family: var(--secondery_font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: auto;
+  color: #666666;
+}
+.footer .footer_top .subscribe .subscribe_form button
+{
+  font-family: var(--secondery_font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: auto;
+  padding: 10px 0;
+padding-left: 28px;
+padding-right: 28px;
+border: none;
+border-radius: 30px;
+color: white;
+background-color: #121212;
+margin-left: -40px;
+}
+
+.footer .footer_content
+{
+  margin-top: 30px;
+  
+}
+
+
 /* ================================Footer End   ====================================== */
