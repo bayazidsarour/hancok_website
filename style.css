@@ -1085,7 +1085,18 @@ color: white;
   justify-content: end;
   gap: 5px;
 }
-
+.footer .copyright
+{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.footer .copyright i
+{
+  font-weight: 200;
+  
+  font-size: small;
+}
 
 .footer .copyright h3
 {
@@ -1094,8 +1105,7 @@ color: white;
   font-family: var(--secondery_font);
   color: white;
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
+ 
 }
 
 .footer .copyright span
