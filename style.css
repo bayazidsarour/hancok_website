@@ -890,7 +890,34 @@ border-top: 1px solid #666666;
 {
  padding-top: 76px;
 }
+
 /* ================================FaQ End   ======================================= */
 /* ================================Footer Start ====================================== */
+.footer .footer_top .subscribe .heading
+{
 
+}
+.footer .footer_top 
+{
+  padding-left: 30px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.footer .footer_top
+{
+  background-color: #ff4655;
+  
+}
+.footer .footer_top .subscribe h2
+{
+  font-family: var(--secondery_font);
+  font-size: 600;
+  line-height: auto;
+  color: white;
+}
+.footer .footer_top .subscribe
+{
+  align-items: center;
+}
 /* ================================Footer End   ====================================== */
