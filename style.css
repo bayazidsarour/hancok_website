@@ -875,15 +875,21 @@ color:white;
   font-family: var(--primery_font);
   font-weight: 400;
 }
-.faq .all_faq .heading_pera
-{
- border-right: 1px solid white;
-}
-.faq .all_faq
-{
-  justify-content: space-between;
-}
 
+.faq .all_faq .q2,.q4
+{
+ justify-content: end;
+ border-left: 1px solid #666666;
+ 
+}
+.faq .all_faq .q3,.q4
+{
+border-top: 1px solid #666666;
+}
+.faq .all_faq .q1,.q2,.q3,.q4
+{
+ padding-top: 76px;
+}
 /* ================================FaQ End   ======================================= */
 /* ================================Footer Start ====================================== */
 
