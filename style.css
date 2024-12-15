@@ -959,8 +959,17 @@ margin-left: -40px;
 .footer .footer_content
 {
   margin-top: 30px;
-  
+
 }
-
-
+.footer .footer_content .left 
+{
+  margin-bottom: 30px;
+}
+.footer .footer_content .left p
+{
+  font-family: var(--primery_font);
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+}
 /* ================================Footer End   ====================================== */
