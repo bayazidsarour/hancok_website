@@ -862,7 +862,26 @@ ul {
 font-family: var(--secondery_font);
 font-size: 22px;
 font-weight: 600;
-color: #ff4655;
+color:white;
+}
+.faq .all_faq .faq1 h3:hover
+{
+  color: #ff4655;
+}
+.faq .all_faq .faq1 p
+{
+  color: #666666;
+  font-size: 16px;
+  font-family: var(--primery_font);
+  font-weight: 400;
+}
+.faq .all_faq .heading_pera
+{
+ border-right: 1px solid white;
+}
+.faq .all_faq
+{
+  justify-content: space-between;
 }
 
 /* ================================FaQ End   ======================================= */
