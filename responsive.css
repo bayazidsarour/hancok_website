@@ -185,19 +185,39 @@
         width: 65%;
     }
 
+    .gaming_accessories .accessories 
+    {
+        margin-top: 34.82px;
+        gap: 20px;
+    }
 
 
+    .professional_team .team .team1 .team_content {
+        position: absolute;
+        bottom: 20px;
+        opacity: 0;
+        background-color: #00000017;
+        width: 90%;
+    }
 
 
+    .professional_team {
+        padding-top: 100px;
+        padding-bottom: 10px;
+       
+    }
 
 
+    .faq .all_faq .q1, .q2, .q3, .q4 {
+        padding-top: 76px;
+        justify-content: space-between;
+    }
 
 
-
-
-
-
-
+    .faq .all_faq .q2, .q4 {
+        justify-content: space-between;
+        border-left: 1px solid #666666;
+    }
 
 
 
