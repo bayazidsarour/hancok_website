@@ -86,6 +86,7 @@
 
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css">
   </head>
 
   <body>
@@ -98,7 +99,17 @@
             <a class="navbar-brand" href="#">
               <img src="./images/logo.png" alt="" />
             </a>
-
+            <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
             <div class="collapse navbar-collapse menu" id="collapsibleNavId">
               <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                 <li class="nav-item">
@@ -124,7 +135,7 @@
                   <a class="" href="#" aria-current="page">Contact Us </a>
                 </li>
               </ul>
-            </div>
+          
 
             <div class="right_nav d-flex">
               <i class="fa-solid fa-globe"></i>
@@ -136,6 +147,7 @@
 
               <i class="fa-solid fa-magnifying-glass"></i>
             </div>
+          </div>
           </div>
         </nav>
         <!-- =====================================Nav End=================================== -->
@@ -686,15 +698,15 @@
               </div>
             </div>
           </div>
-
+      
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <button class="carousel-control-prev  as_prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon as_prev" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <button class="carousel-control-next as_next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon as_next" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>

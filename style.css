@@ -713,12 +713,26 @@ ul {
 .gaming_accessories .accessories .gaming_products {
   gap: 20px;
 }
+.gaming_accessories .accessories .gaming_products:hover 
+{
+  scale: 110%;
+  transition: 0.4s;
+}
 
 .gaming_accessories .accessories {
   margin-top: 102.82px;
 }
 
-
+.as_prev
+{
+  left: -20px;
+  top: 55%;
+}
+.as_next
+{
+  right: -20px;
+  top: 55%;
+}
 
 
 
