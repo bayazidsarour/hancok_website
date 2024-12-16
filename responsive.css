@@ -45,4 +45,34 @@
         padding-bottom: 19px;
     }
 
+
+    .about .h2 {
+        margin-bottom: 57px;
+        font-family: var(--primery_font);
+        font-size: 27px;
+        font-weight: 600;
+        line-height: auto;
+        letter-spacing: 1px;
+        color: white;
+        position: relative;
+    }
+
+    .about .h2::after {
+  
+        left: 150px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
