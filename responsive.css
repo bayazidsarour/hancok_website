@@ -220,8 +220,14 @@
     }
 
 
+.catalog
+{
+    width: 100%;
+}
 
-
-
+.navbar-brand img
+{
+    padding: 0px;
+}
 
 }
