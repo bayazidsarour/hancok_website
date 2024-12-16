@@ -85,6 +85,7 @@ nav {
   background-image: url(./images/banner_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .banner .banner_text {
   padding-top: 337px;

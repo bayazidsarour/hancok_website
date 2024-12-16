@@ -5,4 +5,44 @@
         background-color: #ffffff;
         
     }
+
+    .navbar-nav {
+        gap: 10px;
+        align-items: center;
+        
+       
+    }
+
+    .menu {
+        margin-left: 0px;
+        background-color: #FF4655;
+    }
+
+
+    .right_nav {
+        align-items: center;
+        justify-content: center;
+        gap: 26px;
+        color: white;
+    }
+
+    .banner .banner_text h1 {
+       
+        font-size: 40px;
+       
+    }
+
+    .banner .banner_text p {
+       
+        font-size: 12px;
+        font-weight: 300;
+         width: auto;
+       
+    }
+    .banner .banner_icon {
+        gap: 20px;
+        margin-top: 45px;
+        padding-bottom: 19px;
+    }
+
 }
