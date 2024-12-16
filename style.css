@@ -478,7 +478,8 @@ ul {
 }
 
 .live_stream .previous_matches .team2_logo,
-.team4_logo {
+.team4_logo 
+{
   display: flex;
   justify-content: end;
 }
