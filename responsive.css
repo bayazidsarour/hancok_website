@@ -36,7 +36,7 @@
        
         font-size: 12px;
         font-weight: 300;
-         width: auto;
+         width: 100%;
        
     }
     .banner .banner_icon {
@@ -62,16 +62,90 @@
         left: 150px;
     }
 
+    .about .about_wrapper .image img
+    {
+        
+          width: 100%;
+
+    }
+
+    .about .about_wrapper .about_part h2 
+    {
+ 
+        margin-top: 20px;
+    }
+
+    .about .about_wrapper .about_part p 
+    {
+        width: 100%;
+      
+        font-size: 14px;
+       
+    }
 
 
+    .about_counter
+     {
+        color: white;
+        margin-top: 51px;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #populer_gmaes 
+    {
+       
+        padding-top: 36px;
+      
+        width: 100%;
+    }
+    .populer_games .carosel .left_side .image1 img {
+        position: static;
+        top: 9px;
+        right: 56px;
+        width: 100%;
+    }
+
+    .populer_games .carosel .left_side .image2 img {
+        position: absolute;
+        top: -163px;
+        right: 28px;
+        width: 100%;
+        height: 150%;
+    }
+
+    img, svg {
+        vertical-align: middle;
+        width: 100%;
+        padding-top: 100px;
+    }
 
 
+    .populer_games .icons 
+    {
+       
+        right: 54px;
+       
+    }
 
 
+    .live_stream {
+        padding-top: 32px;
+       
+    }
+    .live_stream .videos 
+    {
+        margin-top: -30.14px;
+    }
 
+    .live_stream .previous_matches 
+    {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 60.66px;
+    }
 
-
-
+   
 
 
 

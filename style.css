@@ -4,9 +4,7 @@
   margin: 0;
   padding: 0;
 }
-/* .row>* {
-    padding: 0;
-} */
+
 
 :root {
   --primery_font: oswald;
@@ -18,7 +16,7 @@
 }
 
 .container {
-  width: 1320px;
+  max-width: 1320px;
   margin: 0 auto;
 }
 nav {
@@ -380,7 +378,7 @@ ul {
 /* ========================bootstarp============================= */
 .carousel-inner {
   position: relative;
-  width: 100%;
+  /* width: 100%; */
   overflow: visible;
 }
 
