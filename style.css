@@ -323,12 +323,17 @@ ul {
   position: relative;
 }
 
-.populer_games .carosel .left_side .image2 img {
+.populer_games .carosel .left_side .image1 img {
   position: absolute;
-  top: -214px;
-  right: 100px;
+  top: 9px;
+  right: 56px;
 }
 
+.populer_games .carosel .left_side .image2 img {
+  position: absolute;
+  top: -205px;
+  right: 100px;
+}
 .populer_games .right_side {
   display: flex;
 }
