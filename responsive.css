@@ -108,18 +108,18 @@
 
     .populer_games .carosel .left_side .image2 img {
         position: absolute;
-        top: -163px;
+        top: -115px;
         right: 28px;
         width: 100%;
         height: 150%;
     }
 
-    img, svg {
+    .populer_games .right_side .game_image1 img{
+        display: flex;
         vertical-align: middle;
         width: 100%;
         padding-top: 100px;
     }
-
 
     .populer_games .icons 
     {
@@ -133,11 +133,10 @@
         padding-top: 32px;
        
     }
-    .live_stream .videos 
-    {
-        margin-top: -30.14px;
+    .live_stream .videos {
+        margin-top: 36.86px;
+        gap: 20px;
     }
-
     .live_stream .previous_matches 
     {
         width: 100%;
@@ -229,5 +228,63 @@
 {
     padding: 0px;
 }
+
+.footer .footer_content .left .logo img {
+    width: auto;
+}
+
+.black_friday {
+    padding-top: 10px;
+}
+
+.black_friday .all_items .sell_item1 i {
+   
+    right: 100px;
+  
+}
+
+.black_friday .all_items {
+    
+    padding-left: 30px;
+   
+}
+
+
+.black_friday .all_items .sell_item1 .price_content
+{
+    margin-bottom: 50px;
+}
+
+.catalog .h6 {
+   
+    font-size: 30px;
+   
+}
+
+.catalog img
+{
+    width: 100%;
+}
+
+.footer .footer_top .subscribe h2 
+{
+  
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

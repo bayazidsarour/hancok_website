@@ -316,7 +316,10 @@ ul {
   right: 150px;
   bottom: 5px;
 }
-
+.populer_games .carosel
+{
+  padding-top: 100px;
+}
 .populer_games .carosel .left_side {
   position: relative;
 }
@@ -324,7 +327,7 @@ ul {
 .populer_games .carosel .left_side .image1 img {
   position: absolute;
   top: 9px;
-  right: 56px;
+  right: 0px;
 }
 
 .populer_games .carosel .left_side .image2 img {
@@ -378,8 +381,8 @@ ul {
 /* ========================bootstarp============================= */
 .carousel-inner {
   position: relative;
-  /* width: 100%; */
-  overflow: visible;
+ 
+  
 }
 
 .populer_games .icons {
@@ -427,6 +430,10 @@ ul {
 
 .live_stream .videos {
   margin-top: 68.86px;
+}
+.live_stream .videos .video_box img {
+  width: 100%;
+
 }
 .live_stream .videos .video_box:hover {
   scale: 110%;
@@ -945,7 +952,7 @@ background-color: #212529;
 .footer .footer_top .subscribe h2
 {
   font-family: var(--secondery_font);
-  font-size: 600;
+  font-size: 35px;
   line-height: auto;
   color: white;
 }
