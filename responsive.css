@@ -274,13 +274,32 @@
 }
 
 
+.footer .footer_content .middle
+{
+    justify-content: space-around;
+}
 
 
+.footer .footer_content .right h2 {
+   
+    text-align: center;
+    margin-left: 0;
+   
+}
 
+.footer .footer_content .gallery_images1 {
+   
+    justify-content: space-between;
+   
 
+}
 
+.footer .footer_content .gallery_images2{
+   
+ 
+   justify-content: space-between;
 
-
+}
 
 
 
