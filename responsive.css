@@ -681,10 +681,31 @@ width:auto;
   width: 100%;
 }
 
+.black_friday h2::after {
+    content: " ";
+    width: 68px;
+    height: 3px;
+    
+    bottom: 2px;
+}
 
+.catalog .h6 {
+    font-family: var(--secondery_font);
+    font-weight: 400;
+    font-size: 50px;
+  
+    margin-bottom: -3px;
+    
+    padding-top: 30px;
+}
 
-
-
+.catalog .catalog_part {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    
+    color: white;
+    align-items: center;
+}
 
 
 
