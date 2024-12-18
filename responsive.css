@@ -306,8 +306,14 @@ width:auto;
 }
 
 
+.as_next {
+    right: -9px;
+    top: 55%;
+}
 
-
-
+.as_prev {
+    left: -6px;
+    top: 55%;
+}
 
 }
