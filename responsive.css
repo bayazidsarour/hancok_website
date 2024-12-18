@@ -590,7 +590,90 @@ width:auto;
     position: relative;
 }
 
+.live_stream .videos .video_box{
+    width: 33%;
+}
 
+
+.live_stream .previous_matches .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--primery_font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: auto;
+    letter-spacing: 2px;
+}
+
+.live_stream .previous_matches .team_1 h4 {
+    font-size: 20px;
+    font-family: var(--secondery_font);
+    font-weight: 400;
+    letter-spacing: ;
+    text-align: end;
+}
+
+
+.live_stream .previous_matches h4 {
+    font-size: 20px;
+    font-family: var(--secondery_font);
+    font-weight: 400;
+    letter-spacing: ;
+}
+.live_stream .previous_matches .match1 .team_1, .team_2, .team_3, .team_4 {
+    align-items: center;
+    justify-content: space-between;
+    background-color: #212121;
+    width: 35%;
+}
+.live_stream .previous_matches .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--primery_font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: auto;
+    letter-spacing: 2px;
+    width: 30%;
+}
+.live_stream .previous_matches .match1 {
+    margin-bottom: 58.56px;
+    width: 100%;
+}
+
+.live_stream .previous_matches .match1, .match2 {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.black_friday h2 {
+    font-family: var(--secondery_font);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 47px;
+    position: relative;
+    color: white;
+}
+
+.black_friday .all_items .sell_item1 {
+    position: relative;
+    width: 50%;
+}
+.black_friday .all_items .sell_item1 i {
+    color: white;
+    position: absolute;
+    right: 69px;
+    top: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #dc3545;
+    padding: 5px;
+    opacity: 0;
+}
 
 
 
