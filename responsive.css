@@ -870,6 +870,47 @@ width: 50%;
 width: 33%;
 }
 
+.footer .footer_content .middle {
+    margin-bottom: 30px;
+    width: 37%;
+    gap: 20px;
+}
+
+.footer .footer_content .middle .teams
+{
+    width: 31%;
+}
+
+.footer .footer_content .right h2
+{
+margin-left: 28px;
+}
+
+
+.footer .footer_top 
+{
+    padding-left: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: -63px;
+    background-color: #ff4655;
+}
+.footer .copyright 
+{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.footer .footer_content .middle .links h4 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--primery_font);
+    color: #666666;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
 
 
 }
