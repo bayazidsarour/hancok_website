@@ -582,7 +582,13 @@ width:auto;
     bottom: 5px;
 }
 
-
+.live_stream .h2 {
+    font-family: var(--primery_font);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    position: relative;
+}
 
 
 
