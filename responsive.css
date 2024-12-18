@@ -734,6 +734,77 @@ width:auto;
     font-weight: 300;
    color: #666666;
 }
+.gaming_accessories .accessories .gaming_products {
+    gap: 20px;
+    width: 50%;
+}
+
+
+.gaming_accessories .accessories .gaming_products img 
+{
+ width: 250px;
+ height: 250px;
+}
+
+.gaming_accessories .accessories .gaming_products {
+    gap: 20px;
+    width: 50%;
+    margin-top: 20px;
+}
+.professional_team .team .team1:hover .team_content {
+    opacity: 100%;
+    transition: 0.4s;
+    width: auto;
+}
+
+.professional_team .team .team1 .team_content p {
+    font-family: var(--primery_font);
+    font-weight: 200;
+    font-size: 12px;
+}
+
+
+
+.professional_team .team .team1 .team_content .button_icon .button
+{
+    width: 50%;
+}
+
+
+.professional_team .team .team1 .team_content .button_icon .icons
+{
+    width: 50%;
+    text-align: end;
+}
+.professional_team .team .team1 .team_content {
+    position: absolute;
+    bottom: 20px;
+    opacity: 0;
+    background-color: #00000017;
+    width: 50%;
+}
+.professional_team .team .team1 .team_details {
+    opacity: 100%;
+    width: 50%;
+}
+.professional_team .team .team1 {
+    width: 50%;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
