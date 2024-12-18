@@ -324,6 +324,7 @@ width:auto;
     .navbar-toggler {
   
         background-color: white;
+        
     }
     
     .live_stream .previous_matches {
@@ -346,6 +347,251 @@ width:auto;
         left: -9px;
         
     }
+
+
+    .menu {
+        margin-left: 60px;
+        background-image: linear-gradient(190deg, #ff465691 , #ff46561d );
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .navbar-nav {
+        gap: 10px;
+        font-size: 20px;
+      
+    }
+
+    .right_nav {
+      
+        justify-content: center;
+       
+    }
+
+    .banner .banner_text {
+        padding-top: 159px;
+        width: 100%;
+    }
+
+    .banner .banner_text h1 {
+       
+        font-size: 38px;
+        font-weight: 400;
+        letter-spacing: 3px;
+       
+    }
+    .banner .banner_text h4 {
+       
+        font-size: 22px;
+        font-weight: 300;
+       
+    }
+
+    .banner .banner_text p {
+        
+        font-size: 16px;
+        font-weight: 200;
+        
+        letter-spacing: 1px;
+    }
+
+    .banner .banner_text .button button {
+        
+        font-weight: 400;
+        padding: 11px 17px;
+        margin-top: 30px;
+        
+    }
+
+    .banner .banner_icon {
+        gap: 11px;
+        margin-top: 33px;
+        padding-bottom: 17px;
+    }
+
+
+    .banner .banner_text h1::after {
+
+        bottom: 5px;
+       right: 294px;
+      
+    }
+
+.about .h2 {
+    margin-bottom: 31px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.about_wrapper .image img
+{
+    width: 100%;
+}
+
+
+
+
+.about_wrapper .image
+{
+    width: 50%;
+}
+.about_wrapper .about_part
+{
+    width: 50%;
+}
+
+.about .about_wrapper .about_part h2 {
+    
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 3px;
+}
+.about .about_wrapper .about_part li {
+    list-style: none;
+    font-family: oswald;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: auto;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+}
+.about .about_wrapper .about_part p {
+    width: 100%;
+    font-family: oswald;
+    font-size: 13px;
+    font-weight: 200;
+
+}
+
+.about .about_wrapper .about_part button {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 4px 7px;
+   
+}
+
+.about_counter {
+    color: white;
+    margin-top: 51px;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.about_counter .counter_box .counter h2 {
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+}
+
+.about_counter .counter_box .counter p {
+    font-family: var(--primery_font);
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.about_counter .counter_box {
+    background-color: #212121;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: auto;
+    text-align: center;
+    border-radius: 0 20px 0 20px;
+}
+.about_counter .counter_box .counter h2::after {
+    content: " ";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ff4655;
+    position: absolute;
+    bottom: 6px;
+    right: auto;
+}
+
+.about .h2::after {
+    content: " ";
+    width: 59px;
+    height: 3px;
+    background-color: #ff4655;
+    position: absolute;
+    bottom: 3px;
+    left: 110px;
+}
+
+
+.about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#populer_gmaes {
+    background-color: #191919;
+    padding-top: 40px;
+    color: #fff;
+    padding-bottom: 0px;
+}
+
+.populer_games h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: auto;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+    position: relative;
+}
+.populer_games .carosel .left_side {
+    position: relative;
+    width: 50%;
+}
+.populer_games .right_side {
+    display: flex;
+    width: 50%;
+}
+.populer_games .right_side .game_image1 img
+{
+   width: 100%;
+}
+.populer_games .carosel .left_side .image1 img {
+    position: absolute;
+    top: -10px;
+    right: -9px;
+    width: 100%;
+}
+
+.populer_games .carosel .left_side .image2 img {
+    position: absolute;
+    top: -251px;
+    right: 17px;
+    width: 100%;
+}
+.populer_games .carosel .left_side .image2 img {
+    position: absolute;
+    top: -151px;
+    right: 41px;
+    width: 79%;
+}
+
+.populer_games h2::after {
+    content: " ";
+    width: 56px;
+    height: 2px;
+    background-color: #ff4655;
+    position: absolute;
+    right: 63px;
+    bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
