@@ -850,6 +850,25 @@ width:auto;
 {
 width: 50%;
 }
+.footer .footer_top .subscribe .subscribe_form 
+{
+width: 50%;
+}
+.footer .footer_content .left 
+{
+    margin-bottom: 30px;
+    width: 33%;
+}
+
+.footer .footer_content .middle 
+{
+    margin-bottom: 30px;
+    width: 33%;
+}
+.footer .footer_content .right 
+{
+width: 33%;
+}
 
 
 
