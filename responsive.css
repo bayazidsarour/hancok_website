@@ -661,6 +661,7 @@ width:auto;
 .black_friday .all_items .sell_item1 {
     position: relative;
     width: 50%;
+    margin-bottom: 20px;
 }
 .black_friday .all_items .sell_item1 i {
     color: white;
@@ -675,7 +676,10 @@ width:auto;
     opacity: 0;
 }
 
-
+.black_friday .all_items .sell_item1 img 
+{
+  width: 100%;
+}
 
 
 
