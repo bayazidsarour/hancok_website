@@ -49,7 +49,10 @@ width:auto;
         padding-bottom: 19px;
     }
 
-
+    .banner .banner_text h1::after {
+     
+        display: none;
+    }
     .about .h2 {
         margin-bottom: 57px;
         font-family: var(--primery_font);
